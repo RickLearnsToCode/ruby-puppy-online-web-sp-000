@@ -11,7 +11,7 @@ def self.clear_all
 end
 
 def self.all
-  @@all.each {|dog| puts dog.name }
+  @@all.map {|dog| puts dog.name }
 end
 
 
